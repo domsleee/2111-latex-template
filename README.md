@@ -1,6 +1,10 @@
 # 2111-latex-template
 
-Build with:
+## Prerequisites
+
++ pdflatex
+
+## Build
 ~~~bash
 make
 ~~~
