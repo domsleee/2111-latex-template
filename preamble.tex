@@ -1,0 +1,18 @@
+\documentclass[a4paper]{scrartcl}
+\usepackage[l2tabu,orthodox]{nag}% Old habits die hard. All the same, there are commands, classes and packages which are outdated and superseded. nag provides routines to warn the user about the use of those.
+
+\usepackage[all,error]{onlyamsmath}% Error on deprecated math commands like $$ $$.
+\usepackage{fixltx2e}
+\usepackage[strict=true]{csquotes}
+
+\usepackage{color}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{styles/2111defs,styles/2111theorems}
+
+\newcommand{\ah}{\mathsf{a}}
+\newcommand{\be}{\mathsf{b}}
+\newcommand{\assn}[1]{{\color{red}\left\{#1\right\}}}
+\newcommand{\length}[1]{\left|#1\right|}
+\newcommand{\noof}[2]{\left\|#1\right\|_{#2}}
+\newcommand{\VAR}{\pPkey{var}}
+\def\L{\mathcal{L}}
